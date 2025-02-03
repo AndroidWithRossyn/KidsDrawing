@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+            android:name=".common.AppController"
+            android:allowBackup="false"
+            android:fullBackupContent="false"
+            android:fullBackupOnly="false"
+            android:requestLegacyExternalStorage="true"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:largeHeap="true"
+            android:usesCleartextTraffic="true"
+            android:hardwareAccelerated="true"
+            tools:replace="android:allowBackup"
+            >
+
+        <provider
+                android:name="androidx.core.content.FileProvider"
+                android:authorities="${applicationId}.provider"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths"/>
+        </provider>
+
+        <activity
+            android:exported="true"
+                android:name=".activities.SplashActivity"
+                android:theme="@style/AppTheme_Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".activities.MainActivity"
+                android:screenOrientation="portrait"
+                />
+
+        <activity
+                android:name=".activities.BGImageListActivity"
+                android:screenOrientation="portrait"
+                />
+
+        <activity
+                android:name=".activities.EditorActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustNothing"
+                />
+
+        <activity
+                android:name=".mywork.MyWorkActivity"
+                android:screenOrientation="portrait"/>
+        <activity
+                android:name=".mywork.FullScreenActivity"
+                android:screenOrientation="portrait"/>
+
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="@string/AD_MOB_APPLICATION_ID" />
+
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+
+        <service
+                android:name=".firebase.MyFirebaseMessagingService"
+                android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
+    </application>
+
+</manifest>

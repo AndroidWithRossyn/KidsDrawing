@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llEditorItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/five_dp"
+        android:clickable="true"
+        android:focusable="true">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivEditorItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/colorLightGrey"
+            android:adjustViewBounds="true"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvEditorItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="@dimen/five_dp"
+            android:paddingBottom="@dimen/five_dp"
+            android:ems="3"
+            android:textColor="@color/colorLightGrey"/>
+
+</LinearLayout>

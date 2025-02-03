@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kids Drawing</string>
+    <string name="folder_name">Kids_Drawing</string>
+
+    <string name="label_easy">Easy</string>
+    <string name="AD_MOB_APPLICATION_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="label_hard">Hard</string>
+
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_select_your_image">Select Your Image</string>
+
+    <string name="label_text_style">Text Style</string>
+
+    <string name="adapter_key">adapter_key</string>
+
+    <string name="hint_enter_text">Enter Text</string>
+</resources>

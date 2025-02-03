@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+
+    <dimen name="half_dp">0.5dp</dimen>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="two_dp">2dp</dimen>
+    <dimen name="three_dp">3dp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="twenty_five_dp">25dp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="forty_dp">40dp</dimen>
+    <dimen name="fifty_dp">50dp</dimen>
+    <dimen name="sixty_dp">60dp</dimen>
+    <dimen name="seventy_dp">70dp</dimen>
+    <dimen name="eighty_dp">80dp</dimen>
+    <dimen name="ninety_dp">90dp</dimen>
+    <dimen name="one_hundreds_dp">100dp</dimen>
+    <dimen name="one_twenty_dp">120dp</dimen>
+
+
+    <!--font size-->
+    <dimen name="ten_sp">10sp</dimen>
+    <dimen name="twelve_sp">12sp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="eighteen_sp">18sp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+
+    <dimen name="twenty_two_sp">22sp</dimen>
+    <dimen name="twenty_four_sp">24sp</dimen>
+    <dimen name="twenty_six_sp">26sp</dimen>
+    <dimen name="fifty_sp">50sp</dimen>
+
+    <dimen name="pencil_width">20dp</dimen>
+    <dimen name="pencil_height">65dp</dimen>
+    <dimen name="pencil_height_selected">85dp</dimen>
+    <dimen name="recycle_view_height">100dp</dimen>
+
+
+    <dimen name="paint_brush_width">40dp</dimen>
+    <dimen name="paint_brush_height">80dp</dimen>
+
+    <dimen name="magic_brush_button_width">60dp</dimen>
+    <dimen name="magic_brush_button_height">58dp</dimen>
+
+    <dimen name="seek_bar_thickness">6dp</dimen>
+    <dimen name="seek_bar_thumb_size">20dp</dimen>
+
+    <dimen name="_1dp">1dp</dimen>
+    <dimen name="_2dp">2dp</dimen>
+    <dimen name="_3dp">3dp</dimen>
+    <dimen name="_4dp">4dp</dimen>
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="_6dp">6dp</dimen>
+    <dimen name="_7dp">7dp</dimen>
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="_9dp">9dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_11dp">11dp</dimen>
+    <dimen name="_12dp">12dp</dimen>
+    <dimen name="_13dp">13dp</dimen>
+    <dimen name="_14dp">14dp</dimen>
+    <dimen name="_15dp">15dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="_17dp">17dp</dimen>
+    <dimen name="_18dp">18dp</dimen>
+    <dimen name="_19dp">19dp</dimen>
+    <dimen name="_20dp">20dp</dimen>
+
+
+    <dimen name="image_text_margin">@dimen/_4dp</dimen>
+    <dimen name="button_text_size">@dimen/_10sdp</dimen>
+
+    <dimen name="paint_brush_width_selected">40dp</dimen>
+    <dimen name="paint_brush_height_selected">90dp</dimen>
+
+
+</resources>

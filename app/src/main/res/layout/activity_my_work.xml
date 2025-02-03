@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F3F3F3"
+        tools:context=".mywork.MyWorkActivity">
+
+    <RelativeLayout
+            android:id="@+id/rltMain"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <RelativeLayout
+                android:id="@+id/rltTop"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#F3F3F3">
+
+            <RelativeLayout
+
+                    android:gravity="bottom"
+                    android:paddingBottom="@dimen/fifteen_dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_header_bg">
+
+                <ImageView
+                        android:id="@+id/ivBack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="8dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_edit_back" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:padding="@dimen/ten_dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="bold"
+                        android:text="My Creation"
+                        android:textColor="@color/colorWhite" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <GridView
+                android:id="@+id/gridOfMyWork"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rltTop"
+                android:numColumns="1"
+                android:background="@android:color/transparent"
+                android:verticalSpacing="@dimen/_16dp"
+                android:scrollbars="none"
+                android:layout_margin="16dp" />
+
+        <TextView
+                android:id="@+id/txtNoItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="No Item Found"
+                android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:id="@+id/llAdView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="visible" />
+
+    <LinearLayout
+            android:id="@+id/llAdViewFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible" />
+
+
+</LinearLayout>

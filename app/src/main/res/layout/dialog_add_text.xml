@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/ten_dp"
+        android:paddingEnd="@dimen/ten_dp"
+        android:paddingBottom="@dimen/ten_dp"
+        android:paddingTop="@dimen/twenty_dp"
+        android:focusableInTouchMode="true"
+        android:layout_margin="@dimen/ten_dp">
+
+    <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/five_dp"
+            android:textColor="@color/colorGrey"
+            android:hint="@string/hint_enter_text"
+            android:maxLines="2"
+            android:textColorHint="@color/colorVeryLightGrey"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="end"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/label_cancel"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:layout_margin="@dimen/ten_dp"
+                android:textColor="@color/colorGrey"
+                android:padding="@dimen/ten_dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvOK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="@string/label_ok"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:layout_margin="@dimen/ten_dp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/rounded_corner_back_theme_5_dp"
+                android:padding="@dimen/ten_dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

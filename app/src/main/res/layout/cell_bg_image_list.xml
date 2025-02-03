@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ninetynineapps.kidsdrawing.custom.SquareCardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cvBGImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/five_dp"
+        app:cardElevation="@dimen/zero_dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/colorWhite">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBGImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@color/colorWhite"
+            android:layout_margin="@dimen/five_dp"/>
+
+</com.ninetynineapps.kidsdrawing.custom.SquareCardView>

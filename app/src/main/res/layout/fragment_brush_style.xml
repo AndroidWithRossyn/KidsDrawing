@@ -1,0 +1,224 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:scrollbarSize="0.1dp"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ptn1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern1"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern1"
+                android:tag="pattern1"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern2"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern2"
+                android:tag="pattern2"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern3"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern3"
+                android:tag="pattern3"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern4"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern4"
+                android:tag="pattern4"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern5"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern5"
+                android:tag="pattern5"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern6"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern6"
+                android:tag="pattern6"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern7"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern7"
+                android:tag="pattern7"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern8"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern8"
+                android:tag="pattern8"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern9"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern9"
+                android:tag="pattern9"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern10"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern10"
+                android:tag="pattern10"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern11"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern11"
+                android:tag="pattern11"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/ptn12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:background="@drawable/pattern12"
+                android:contentDescription="pattern"
+                android:onClick="paintClicked"
+                android:src="@drawable/pattern12"
+                android:tag="pattern12"
+                android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/HoriZontalImageButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scrollbarSize="0.5dip"
+        android:background="@android:color/black">
+
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/llRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="@android:color/white">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+       <!-- <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/pattern2"
+            android:contentDescription="pattern"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="pattern2" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/pattern3"
+            android:contentDescription="pattern"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="pattern3"
+            android:id="@+id/imageButton" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/pattern4"
+            android:contentDescription="pattern"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            android:tag="pattern4" />-->
+    </LinearLayout>
+
+</FrameLayout>

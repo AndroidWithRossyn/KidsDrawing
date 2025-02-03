@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/colorWhite"
+        android:layout_margin="16dp">
+
+
+    <com.ninetynineapps.kidsdrawing.custom.SquareImageView
+            android:id="@+id/cellImgMyWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/cellTxtDate"
+            android:padding="@dimen/_16dp"
+            android:scaleType="fitCenter"/>
+
+    <TextView
+            android:id="@+id/cellTxtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="4dp"
+            android:text="Sep 25,2018"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+
+</RelativeLayout>

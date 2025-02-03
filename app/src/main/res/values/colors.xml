@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="transparent_">#00ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="notification_theme">#80DEEA</color>
+
+    <color name="colorTheme">#028BFF</color>
+    <color name="colorDarkBlue">#028BFF</color>
+    <color name="colorLightBlue">#57B2FF</color>
+    <color name="colorVeryLightBlue">#E1F1FE</color>
+
+    <color name="colorShareBtn">#37dd51</color>
+
+    <color name="colorRed">#FF0000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorGrey">#565656</color>
+    <color name="colorLightGrey">#918d8d</color>
+    <color name="colorVeryLightGrey">#949494</color>
+
+    <color name="colorFullTransparent">#00000000</color>
+    <color name="colorHalfTransparent">#80000000</color>
+    <color name="colorPremium">#59000000</color>
+    <color name="colorMoreSavedCard">#59000000</color>
+
+    <color name="colorNoInternet">#f6f6f6</color>
+
+    <color name="colorDefaultImg">#C9C9C9</color>
+    <color name="colorTodayAllCat">#CE94D8</color>
+
+    <color name="colorBorderVeryLightGrey">#E7E7E7</color>
+    <color name="colorDefaultCircle">#E7E7E7</color>
+
+    <color name="darker_gray">#aaa</color>
+    <color name="header">#0a9cef</color>
+
+    <color name="seek_bar_background">#ababab</color>
+    <color name="seek_bar_progress">#ffb600</color>
+    <color name="seek_bar_secondary_progress">#3399CC</color>
+
+    <color name="light_transparent">#b9000000</color>
+
+    <!--Todo++++++++++++++++++++ Brush Color ++++++++++++++++++++-->
+    <color name="PaintBrush_01">#A13535</color>
+    <color name="PaintBrush_02">#856E51</color>
+    <color name="PaintBrush_03">#727272</color>
+    <color name="PaintBrush_04">#D402B8</color>
+    <color name="PaintBrush_05">#02D43D</color>
+    <color name="PaintBrush_06">#028AD4</color>
+    <color name="PaintBrush_07">#D4028F</color>
+    <color name="PaintBrush_08">#D40203</color>
+    <color name="PaintBrush_09">#D49F02</color>
+    <color name="PaintBrush_10">#BBD402</color>
+
+    <color name="PaintBrush_11">#7C02D4</color>
+    <color name="PaintBrush_12">#5502D4</color>
+    <color name="PaintBrush_13">#8E39D6</color>
+    <color name="PaintBrush_14">#D80202</color>
+    <color name="PaintBrush_15">#DD2E02</color>
+    <color name="PaintBrush_16">#FF3E02</color>
+    <color name="PaintBrush_17">#FF6F41</color>
+    <color name="PaintBrush_18">#BF370E</color>
+    <color name="PaintBrush_19">#D84417</color>
+    <color name="PaintBrush_20">#FF6E02</color>
+
+    <color name="PaintBrush_21">#FFD602</color>
+    <color name="PaintBrush_22">#FFEA02</color>
+    <color name="PaintBrush_23">#FFFF02</color>
+    <color name="PaintBrush_24">#FFFF8E</color>
+    <color name="PaintBrush_25">#F58019</color>
+    <color name="PaintBrush_26">#F9A927</color>
+    <color name="PaintBrush_27">#FBC02F</color>
+    <color name="PaintBrush_28">#65DD19</color>
+    <color name="PaintBrush_29">#77FF05</color>
+    <color name="PaintBrush_30">#B3FF5A</color>
+
+    <color name="PaintBrush_31">#356A20</color>
+    <color name="PaintBrush_32">#02BFA6</color>
+    <color name="PaintBrush_33">#1FE9B6</color>
+    <color name="PaintBrush_34">#65FFDA</color>
+    <color name="PaintBrush_35">#A8FFEB</color>
+    <color name="PaintBrush_36">#FF553D</color>
+    <color name="PaintBrush_37">#FE7921</color>
+    <color name="PaintBrush_38">#FFD633</color>
+    <color name="PaintBrush_39">#3EE53E</color>
+    <color name="PaintBrush_40">#58DAE0</color>
+
+    <color name="PaintBrush_41">#1B86F2</color>
+    <color name="PaintBrush_42">#8551E6</color>
+    <color name="PaintBrush_43">#D147EB</color>
+    <color name="PaintBrush_44">#3A3A3A</color>
+    <color name="PaintBrush_45">#A6A8AC</color>
+    <color name="PaintBrush_46">#87DF5E</color>
+    <color name="PaintBrush_47">#D9A2ED</color>
+    <color name="PaintBrush_48">#FF5F39</color>
+    <color name="PaintBrush_49">#FF2F3A</color>
+    <color name="PaintBrush_50">#38AAE0</color>
+
+    <color name="PaintBrush_51">#047BFF</color>
+    <color name="PaintBrush_52">#5A56D8</color>
+    <color name="PaintBrush_53">#E2F7DB</color>
+    <color name="PaintBrush_54">#FF4B84</color>
+    <color name="PaintBrush_55">#5CDAEA</color>
+    <color name="PaintBrush_56">#FFCC05</color>
+    <color name="PaintBrush_57">#C21A5C</color>
+    <color name="PaintBrush_58">#F8BBD0</color>
+    <color name="PaintBrush_59">#E92064</color>
+    <color name="PaintBrush_60">#FF5353</color>
+
+    <color name="PaintBrush_61">#232323</color>
+    <color name="PaintBrush_62">#767676</color>
+    <color name="PaintBrush_63">#B71E1E</color>
+    <color name="PaintBrush_64">#AB02FF</color>
+    <color name="PaintBrush_65">#D502F9</color>
+    <color name="PaintBrush_66">#EA81FC</color>
+    <color name="PaintBrush_67">#4B168D</color>
+    <color name="PaintBrush_68">#6B1D9B</color>
+    <color name="PaintBrush_69">#8F26AB</color>
+    <color name="PaintBrush_70">#6302EA</color>
+
+    <color name="PaintBrush_71">#6621FF</color>
+    <color name="PaintBrush_72">#331D93</color>
+    <color name="PaintBrush_73">#283439</color>
+    <color name="PaintBrush_74">#384850</color>
+    <color name="PaintBrush_75">#556F7B</color>
+    <color name="PaintBrush_76">#79919D</color>
+    <color name="PaintBrush_77">#EEEEEE</color>
+    <color name="PaintBrush_78">#3F2925</color>
+    <color name="PaintBrush_79">#4F3530</color>
+    <color name="PaintBrush_80">#5E4138</color>
+    <color name="PaintBrush_81">#7A5649</color>
+    <!--Todo++++++++++++++++++++ Brush Color ++++++++++++++++++++-->
+
+    <array name="PaintBrushColorArray">
+        <item>@color/PaintBrush_01</item>
+        <item>@color/PaintBrush_02</item>
+        <item>@color/PaintBrush_03</item>
+        <item>@color/PaintBrush_04</item>
+        <item>@color/PaintBrush_05</item>
+        <item>@color/PaintBrush_06</item>
+        <item>@color/PaintBrush_07</item>
+        <item>@color/PaintBrush_08</item>
+        <item>@color/PaintBrush_09</item>
+        <item>@color/PaintBrush_10</item>
+
+        <item>@color/PaintBrush_11</item>
+        <item>@color/PaintBrush_12</item>
+        <item>@color/PaintBrush_13</item>
+        <item>@color/PaintBrush_14</item>
+        <item>@color/PaintBrush_15</item>
+        <item>@color/PaintBrush_16</item>
+        <item>@color/PaintBrush_17</item>
+        <item>@color/PaintBrush_18</item>
+        <item>@color/PaintBrush_19</item>
+        <item>@color/PaintBrush_20</item>
+
+        <item>@color/PaintBrush_21</item>
+        <item>@color/PaintBrush_22</item>
+        <item>@color/PaintBrush_23</item>
+        <item>@color/PaintBrush_24</item>
+        <item>@color/PaintBrush_25</item>
+        <item>@color/PaintBrush_26</item>
+        <item>@color/PaintBrush_27</item>
+        <item>@color/PaintBrush_28</item>
+        <item>@color/PaintBrush_29</item>
+        <item>@color/PaintBrush_30</item>
+
+        <item>@color/PaintBrush_31</item>
+        <item>@color/PaintBrush_32</item>
+        <item>@color/PaintBrush_33</item>
+        <item>@color/PaintBrush_34</item>
+        <item>@color/PaintBrush_35</item>
+        <item>@color/PaintBrush_36</item>
+        <item>@color/PaintBrush_37</item>
+        <item>@color/PaintBrush_38</item>
+        <item>@color/PaintBrush_39</item>
+        <item>@color/PaintBrush_40</item>
+
+        <item>@color/PaintBrush_41</item>
+        <item>@color/PaintBrush_42</item>
+        <item>@color/PaintBrush_43</item>
+        <item>@color/PaintBrush_44</item>
+        <item>@color/PaintBrush_45</item>
+        <item>@color/PaintBrush_46</item>
+        <item>@color/PaintBrush_47</item>
+        <item>@color/PaintBrush_48</item>
+        <item>@color/PaintBrush_49</item>
+        <item>@color/PaintBrush_50</item>
+
+        <item>@color/PaintBrush_51</item>
+        <item>@color/PaintBrush_52</item>
+        <item>@color/PaintBrush_53</item>
+        <item>@color/PaintBrush_54</item>
+        <item>@color/PaintBrush_55</item>
+        <item>@color/PaintBrush_56</item>
+        <item>@color/PaintBrush_57</item>
+        <item>@color/PaintBrush_58</item>
+        <item>@color/PaintBrush_59</item>
+        <item>@color/PaintBrush_60</item>
+
+        <item>@color/PaintBrush_61</item>
+        <item>@color/PaintBrush_62</item>
+        <item>@color/PaintBrush_63</item>
+        <item>@color/PaintBrush_64</item>
+        <item>@color/PaintBrush_65</item>
+        <item>@color/PaintBrush_66</item>
+        <item>@color/PaintBrush_67</item>
+        <item>@color/PaintBrush_68</item>
+        <item>@color/PaintBrush_69</item>
+        <item>@color/PaintBrush_70</item>
+
+        <item>@color/PaintBrush_71</item>
+        <item>@color/PaintBrush_72</item>
+        <item>@color/PaintBrush_73</item>
+        <item>@color/PaintBrush_74</item>
+        <item>@color/PaintBrush_75</item>
+        <item>@color/PaintBrush_76</item>
+        <item>@color/PaintBrush_77</item>
+        <item>@color/PaintBrush_78</item>
+        <item>@color/PaintBrush_79</item>
+        <item>@color/PaintBrush_80</item>
+
+        <item>@color/PaintBrush_81</item>
+    </array>
+
+
+    <!--Todo++++++++++++++++++++ Pencil Color ++++++++++++++++++++-->
+
+    <color name="PencilColor_01">#9300fe</color>
+    <color name="PencilColor_02">#dffd00</color>
+    <color name="PencilColor_03">#febd00</color>
+    <color name="PencilColor_04">#fd0001</color>
+    <color name="PencilColor_05">#fd00a9</color>
+    <color name="PencilColor_06">#6400fe</color>
+    <color name="PencilColor_07">#00a4fe</color>
+    <color name="PencilColor_08">#00fe47</color>
+    <color name="PencilColor_09">#fe00db</color>
+    <color name="PencilColor_10">#848484</color>
+
+    <color name="PencilColor_11">#9d825f</color>
+    <color name="PencilColor_12">#be3e3e</color>
+    <color name="PencilColor_13">#00d2fe</color>
+    <color name="PencilColor_14">#00fef0</color>
+    <color name="PencilColor_15">#00fe9c</color>
+    <color name="PencilColor_16">#8efd00</color>
+    <color name="PencilColor_17">#fff900</color>
+    <color name="PencilColor_18">#ffbe00</color>
+    <color name="PencilColor_19">#fe9c00</color>
+    <color name="PencilColor_20">#fe7e00</color>
+
+    <color name="PencilColor_21">#ff6600</color>
+    <color name="PencilColor_22">#ff5900</color>
+    <color name="PencilColor_23">#27d661</color>
+    <color name="PencilColor_24">#7e7e7e</color>
+    <color name="PencilColor_25">#50a4ac</color>
+    <color name="PencilColor_26">#5061ac</color>
+    <color name="PencilColor_27">#9650ac</color>
+    <color name="PencilColor_28">#ac508d</color>
+    <color name="PencilColor_29">#9cd824</color>
+    <color name="PencilColor_30">#a98b53</color>
+
+    <color name="PencilColor_31">#a95360</color>
+    <color name="PencilColor_32">#fd00a8</color>
+    <color name="PencilColor_33">#6d00fe</color>
+    <color name="PencilColor_34">#4b00fe</color>
+    <color name="PencilColor_35">#000dfe</color>
+    <color name="PencilColor_36">#00a9fe</color>
+    <color name="PencilColor_37">#af00fe</color>
+    <color name="PencilColor_38">#e200fe</color>
+    <color name="PencilColor_39">#fe00e7</color>
+    <color name="PencilColor_40">#fe00ad</color>
+
+    <color name="PencilColor_41">#fe0061</color>
+    <color name="PencilColor_42">#fe001a</color>
+    <color name="PencilColor_43">#949494</color>
+    <color name="PencilColor_44">#28d824</color>
+
+    <array name="PencilColorArray">
+        <item>@color/PencilColor_01</item>
+        <item>@color/PencilColor_02</item>
+        <item>@color/PencilColor_03</item>
+        <item>@color/PencilColor_04</item>
+        <item>@color/PencilColor_05</item>
+        <item>@color/PencilColor_06</item>
+        <item>@color/PencilColor_07</item>
+        <item>@color/PencilColor_08</item>
+        <item>@color/PencilColor_09</item>
+        <item>@color/PencilColor_10</item>
+
+        <item>@color/PencilColor_11</item>
+        <item>@color/PencilColor_12</item>
+        <item>@color/PencilColor_13</item>
+        <item>@color/PencilColor_14</item>
+        <item>@color/PencilColor_15</item>
+        <item>@color/PencilColor_16</item>
+        <item>@color/PencilColor_17</item>
+        <item>@color/PencilColor_18</item>
+        <item>@color/PencilColor_19</item>
+        <item>@color/PencilColor_20</item>
+
+        <item>@color/PencilColor_21</item>
+        <item>@color/PencilColor_22</item>
+        <item>@color/PencilColor_23</item>
+        <item>@color/PencilColor_24</item>
+        <item>@color/PencilColor_25</item>
+        <item>@color/PencilColor_26</item>
+        <item>@color/PencilColor_27</item>
+        <item>@color/PencilColor_28</item>
+        <item>@color/PencilColor_29</item>
+        <item>@color/PencilColor_30</item>
+
+        <item>@color/PencilColor_31</item>
+        <item>@color/PencilColor_32</item>
+        <item>@color/PencilColor_33</item>
+        <item>@color/PencilColor_34</item>
+        <item>@color/PencilColor_35</item>
+        <item>@color/PencilColor_36</item>
+        <item>@color/PencilColor_37</item>
+        <item>@color/PencilColor_38</item>
+        <item>@color/PencilColor_39</item>
+        <item>@color/PencilColor_40</item>
+
+        <item>@color/PencilColor_41</item>
+        <item>@color/PencilColor_42</item>
+        <item>@color/PencilColor_43</item>
+        <item>@color/PencilColor_44</item>
+
+    </array>
+
+</resources>

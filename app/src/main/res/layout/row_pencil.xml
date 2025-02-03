@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/_20dp"
+        android:layout_height="90dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivPencil"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"/>
+</LinearLayout>
